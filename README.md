@@ -53,10 +53,7 @@ This solution implements a **custom test runner in C# from scratch**, without re
   Each test’s pass/fail status is printed **immediately after execution**, interleaved with setup/teardown logs for clarity.
 
 - **Results File**  
-  `results.txt` logs all test pass/fail messages and the final summary. This enables:
-  - CI/CD pipeline integration
-  - Further analysis or logging
-
+  `results.txt` logs all test pass/fail messages and the final summary.
 - **Exit Code**  
   The process exits with:
   - Code `0` if **all tests pass**
